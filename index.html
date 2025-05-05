@@ -31,11 +31,14 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         background: linear-gradient(to bottom, #80e0e6, #f4e1c1);
       }
 
-      section {
+      section.content {
         display: flex;
         align-items: center;
         gap: 2rem;
@@ -47,16 +50,17 @@
         border-radius: 10px;
       }
 
-      section p {
+      section.content p {
         flex: 1;
+        font-size: 1.2rem;
       }
 
-      section:nth-child(even) {
+      section.content:nth-child(even) {
         flex-direction: row-reverse;
       }
 
       @media (max-width: 768px) {
-        section {
+        section.content {
           flex-direction: column !important;
           text-align: center;
         }
@@ -82,7 +86,7 @@
       p {
         max-width: 800px;
         margin: 0 auto 1.5rem;
-        font-size: 1.2rem;
+
         line-height: 1.8;
       }
 
@@ -103,6 +107,24 @@
           font-size: 1rem;
         }
       }
+
+      .intro {
+        text-align: center;
+        padding: 3rem 1rem;
+      }
+
+      .intro h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #026c7c;
+      }
+
+      .intro p {
+        font-size: 1.4rem;
+        max-width: 600px;
+        margin: 0 auto;
+        color: #444;
+      }
     </style>
   </head>
   <body>
@@ -112,7 +134,15 @@
     </header>
 
     <main>
-      <section>
+      <section class="intro">
+        <h2>Welcome to Paradise</h2>
+        <p>
+          Let me take you on a visual escape to one of the most surreal and
+          relaxing places on Earth — Whitehaven Beach.
+        </p>
+      </section>
+
+      <section class="content">
         <img
           src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/900/original/whitehaven-beach.jpg?1746458438"
           alt="Whitehaven Beach view"
@@ -125,7 +155,7 @@
         </p>
       </section>
 
-      <section>
+      <section class="content">
         <img
           src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/906/original/whitehaven-location.png?1746459450"
           alt="Whitehaven Beach view"
@@ -137,7 +167,7 @@
         </p>
       </section>
 
-      <section>
+      <section class="content">
         <img
           src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/901/original/whitehaven-beach-camping-whitsundays-0130.jpg?1746458532"
           alt="Whitehaven Beach view"
