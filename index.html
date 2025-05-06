@@ -94,20 +94,43 @@
       }
 
       h2 {
-        font-size: 1.6rem;
+        font-size: 2rem;
         color: #00796b;
         margin-bottom: 2rem;
       }
 
       p {
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto 1.5rem;
 
         line-height: 1.8;
       }
 
-      a:hover {
+      section a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #0288d1;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+
+      footer a {
+        text-decoration: underline;
+        color: #00796b;
+        transition: 200ms ease-in-out;
+      }
+
+      section a:hover {
         cursor: pointer;
+      }
+
+      footer a:hover {
+        cursor: pointer;
+        color: aqua;
       }
 
       @media (max-width: 600px) {
@@ -160,6 +183,17 @@
         font-size: 1.3rem;
         margin-left: -10rem;
         margin-right: -10rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+      }
+
+      footer {
+        padding: 2rem;
+        padding-bottom: 1rem;
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/829/original/Hill-Inlet-Swirling-Sands.jpg?1746386780);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
       }
     </style>
   </head>
@@ -193,7 +227,7 @@
 
       <section class="content">
         <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/906/original/whitehaven-location.png?1746459450"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/028/original/Abel-Point-Marina.jpg?1746558195"
           alt="Whitehaven Beach view"
         />
         <p>
@@ -241,18 +275,25 @@
 
       <section class="location">
         <h2>How to Get There</h2>
-        <p>
-          Nestled on Whitsunday Island, Whitehaven Beach is located off the
-          coast of Queensland, Australia.
-        </p>
+
         <img
           src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/164/906/original/whitehaven-location.png?1746459450"
           alt="Whitehaven Beach view"
+          width="100%"
+          style="
+            max-width: 800px;
+            border-radius: 10px;
+            margin: 2rem auto;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+          "
         />
         <p>
+          Nestled on Whitsunday Island, Whitehaven Beach is located off the
+          coast of Queensland, Australia.<br />
+
           The nearest departure points are Airlie Beach and Hamilton Island.
           Since it’s not accessible by road, most visitors arrive via boat
-          tours, private charters, or scenic seaplane flights. <br />
+          tours, private charters, or scenic seaplane flights. <br /><br />
           <strong> Coordinates: 20.2820° S, 149.0370° E</strong>
         </p>
 
@@ -266,27 +307,19 @@
             loading="lazy"
           ></iframe>
         </div>
+        <a
+          href="https://www.queensland.com/au/en/things-to-do/attractions/p-56b25dc07b935fbe730dc52c-whitehaven-beach"
+          target="_blank"
+          onmouseover="this.style.backgroundColor='#0277bd'"
+          onmouseout="this.style.backgroundColor='#0288d1'"
+        >
+          Learn more about Whitehaven Beach
+        </a>
       </section>
-
-      <a
-        href="https://www.queensland.com/au/en/things-to-do/attractions/p-56b25dc07b935fbe730dc52c-whitehaven-beach"
-        target="_blank"
-        style="
-          display: inline-block;
-          margin-top: 1.5rem;
-          padding: 0.75rem 1.5rem;
-          background-color: #0288d1;
-          color: white;
-          text-decoration: none;
-          border-radius: 5px;
-          font-weight: bold;
-          transition: background 0.3s;
-        "
-        onmouseover="this.style.backgroundColor='#0277bd'"
-        onmouseout="this.style.backgroundColor='#0288d1'"
-      >
-        Learn more about Whitehaven Beach
-      </a>
     </main>
   </body>
+
+  <footer>
+    <p>Challenge by SheCodes, Coded by <a>Mehrnaz Eftekhari</a></p>
+  </footer>
 </html>
