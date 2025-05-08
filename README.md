@@ -28,8 +28,11 @@ This project was created to highlight the beauty of Whitehaven Beach using only 
 
 ## 📸 Screenshots
 
-![Screenshot of Website](./Screenshots/1.png)
-![Screenshot of Website](./Screenshots/2.png)
+**💻 Desktop View**  
+![Desktop Screenshot](./screenshots/screenshot-desktop.png)
+
+**📱 Mobile View**  
+![Mobile Screenshot](./screenshots/screenshot-mobile.png)
 
 ## 🤝 Acknowledgment
 
