@@ -42,4 +42,4 @@ Learn more at [SheCodes.io](SheCodes.io).
 ## 📬 Contact
 
 Made with 💙 by [Mehrnaz Eftekhari](https://www.shecodes.io/graduates/60019-mehrnaz-eftekhari)  
-Feel free to reach out via [Email](mailto:mehrnaz.eftekhari@outlook.com), [GitHub](https://github.com/mehrnaz98) or [LinkedIn](https://www.linkedin.com/in/mehrnaz-eftekhari-4a401122b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQtgY%2Bz1rQGmdprt52Iv1ZQ%3D%3D)
+Feel free to reach out via [Email](mailto:mehrnaz.eftekhari@outlook.com), [GitHub](https://github.com/mehrnaz98) or [LinkedIn](www.linkedin.com/in/mehrnaz-eftekhari-4a401122b)
