@@ -45,5 +45,5 @@ Feel free to fork or use this layout as inspiration for your own travel landing 
 
 ## 📬 Contact
 
-Made with 💙 by [Mehrnaz Eftekhari]  
-Feel free to reach out via [email](mailto:mehrnaz.eftekhari@outlook.com) or [GitHub](https://github.com/mehrnaz98)
+Made with 💙 by [Mehrnaz Eftekhari]()  
+Feel free to reach out via [Email](mailto:mehrnaz.eftekhari@outlook.com), [GitHub](https://github.com/mehrnaz98) or [LinkedIn](https://www.linkedin.com/in/mehrnaz-eftekhari-4a401122b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQtgY%2Bz1rQGmdprt52Iv1ZQ%3D%3D)
