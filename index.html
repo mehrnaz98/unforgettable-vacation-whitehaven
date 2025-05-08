@@ -331,6 +331,27 @@
         font-size: 0.9rem;
       }
 
+      .learn-more {
+        text-align: center;
+        margin: 4rem 0;
+      }
+
+      .cta-link {
+        background-color: #0288d1;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+      }
+
+      .cta-link:hover {
+        background-color: #0277bd;
+      }
+
       footer {
         padding: 2rem;
         background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
@@ -533,14 +554,13 @@
         </div>
       </section>
 
-      <section>
+      <section class="learn-more">
         <a
           href="https://www.queensland.com/au/en/things-to-do/attractions/p-56b25dc07b935fbe730dc52c-whitehaven-beach"
           target="_blank"
-          onmouseover="this.style.backgroundColor='#0277bd'"
-          onmouseout="this.style.backgroundColor='#0288d1'"
+          class="cta-link"
         >
-          Learn more about Whitehaven Beach
+          🌴 Learn more about Whitehaven Beach →
         </a>
       </section>
 
